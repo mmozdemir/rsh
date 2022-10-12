@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target>page</click_target>
+        <details/>
+        <details_link_text>RHS Health Provider List</details_link_text>
+        <details_page display_value="hpl">1c0e5a9c97451110303474571153af41</details_page>
+        <details_url>https://dev51569.service-now.com/now/nav/ui/classic/params/target/x_862222_rhs_healt_health_provider_list.do%3Fsysparm_userpref_module%3D368ad88497811110303474571153afe8</details_url>
+        <dismiss_options>session_dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2022-07-28 14:38:49</from>
+        <glyph>volume-up</glyph>
+        <glyph_alt_text/>
+        <name>RHS Health Hub</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>The RHS Health Provider List for Ireland has been updated! Click the button to view the updated List.</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-28 14:45:28</sys_created_on>
+        <sys_id>66a7561897451110303474571153afd3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>RHS Health Hub</sys_name>
+        <sys_package display_value="RHS Health Hub" source="x_862222_rhs_healt">48ece32397b01110303474571153af8c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RHS Health Hub">48ece32397b01110303474571153af8c</sys_scope>
+        <sys_update_name>announcement_66a7561897451110303474571153afd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-28 15:13:20</sys_updated_on>
+        <title>Updated RHS Health Provider List</title>
+        <to>2022-08-06 14:38:56</to>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=66a7561897451110303474571153afd3"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="Health Care">04f5a9d497811110303474571153afa7</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 09:53:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84768fb597411110303474571153af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health Care.Any User</sys_name>
+        <sys_package display_value="RHS Health Hub" source="x_862222_rhs_healt">48ece32397b01110303474571153af8c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RHS Health Hub">48ece32397b01110303474571153af8c</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_84768fb597411110303474571153af06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 09:53:22</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </kb_uc_can_read_mtom>
+</record_update>

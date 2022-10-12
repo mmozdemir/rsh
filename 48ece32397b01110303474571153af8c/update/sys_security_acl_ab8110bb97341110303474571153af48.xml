@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_862222_rhs_healt_rhs_requests</description>
+        <name>x_862222_rhs_healt_rhs_requests</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 15:35:14</sys_created_on>
+        <sys_id>ab8110bb97341110303474571153af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_862222_rhs_healt_rhs_requests</sys_name>
+        <sys_package display_value="RHS Health Hub" source="x_862222_rhs_healt">48ece32397b01110303474571153af8c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RHS Health Hub">48ece32397b01110303474571153af8c</sys_scope>
+        <sys_update_name>sys_security_acl_ab8110bb97341110303474571153af48</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 15:35:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

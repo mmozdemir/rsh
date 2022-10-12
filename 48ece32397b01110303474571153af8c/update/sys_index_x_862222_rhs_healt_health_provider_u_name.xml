@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_name</col_name_string>
+        <index_col_name element="u_name" name="x_862222_rhs_healt_health_provider">9e7effe797f01110303474571153afb7</index_col_name>
+        <logical_table_name>x_862222_rhs_healt_health_provider</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-26 14:29:07</sys_created_on>
+        <sys_id>c7620cfb97f01110303474571153af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_862222_rhs_healt_health_provider</sys_name>
+        <sys_package display_value="RHS Health Hub" source="x_862222_rhs_healt">48ece32397b01110303474571153af8c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RHS Health Hub">48ece32397b01110303474571153af8c</sys_scope>
+        <sys_update_name>sys_index_x_862222_rhs_healt_health_provider_u_name</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-26 14:29:07</sys_updated_on>
+        <table display_value="Health Provider" name="x_862222_rhs_healt_health_provider">7c5a732797f01110303474571153af84</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

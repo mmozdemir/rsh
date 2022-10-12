@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <order>1</order>
+        <roles>x_862222_rhs_healt.rated_arrticles</roles>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b68e1ea597415510303474571153af35</sp_column>
+        <sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 15:24:40</sys_created_on>
+        <sys_id>eab8d18097851110303474571153af55</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Top Rated Articles</sys_name>
+        <sys_package display_value="RHS Health Hub" source="x_862222_rhs_healt">48ece32397b01110303474571153af8c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RHS Health Hub">48ece32397b01110303474571153af8c</sys_scope>
+        <sys_update_name>sp_instance_eab8d18097851110303474571153af55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 09:50:16</sys_updated_on>
+        <title>Top Rated Articles</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"max_number": {
+		"value": 1,
+		"displayValue": "1"
+	},
+	"kb_category": {
+		"value": "be8b355c97c11110303474571153af0f",
+		"displayValue": "General Care"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=eab8d18097851110303474571153af55"/>
+</record_update>

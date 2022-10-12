@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-10-09 18:23:13">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-30 19:51:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7da2394197cd9110303474571153af11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_rhs_catalog</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RHS Health Hub" source="x_862222_rhs_healt">48ece32397b01110303474571153af8c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RHS Health Hub">48ece32397b01110303474571153af8c</sys_scope>
+        <sys_update_name>sys_portal_page_7da2394197cd9110303474571153af11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-30 19:51:51</sys_updated_on>
+        <title>catalog_rhs_catalog</title>
+        <user/>
+        <view>catalog_rhs_catalog</view>
+    </sys_portal_page>
+</record_update>
