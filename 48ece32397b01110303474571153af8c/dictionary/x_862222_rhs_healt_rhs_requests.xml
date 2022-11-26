@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="RHS Request" max_length="40" name="x_862222_rhs_healt_rhs_requests" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_category" reference="x_862222_rhs_healt_health_provider" type="string">
+            <choice>
+                <element inactive_on_update="false" label="General Practice" sequence="0" value="general practice"/>
+                <element inactive="true" inactive_on_update="true" label="Dental" sequence="1" value="dental"/>
+                <element inactive_on_update="false" label="Dental Practice" sequence="1" value="dental practice"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="100" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="County" mandatory="true" max_length="40" name="u_county" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Dublin" sequence="0" value="dublin"/>
+                <element inactive_on_update="false" label="Kildare" sequence="1" value="kildare"/>
+                <element inactive_on_update="false" label="Meath" sequence="2" value="meath"/>
+                <element inactive_on_update="false" label="Offaly" sequence="3" value="offaly"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Birth" mandatory="true" max_length="40" name="u_glide_date_12" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_county" dependent_on_field="u_county" label="Health Provider" mandatory="true" max_length="40" name="u_health_provider" reference="x_862222_rhs_healt_health_provider" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="ireland" label="Location" max_length="40" name="u_location" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+                <element inactive_on_update="false" label="Ireland" sequence="0" value="ireland"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript: gs.getUserID();&#13;&#10;&#13;&#10;" label="User Name" mandatory="true" max_length="40" name="u_user_name" reference="sys_user" type="reference"/>
+    </element>
+</database>

@@ -45,6 +45,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>RHS logo.png</file_name>
         <hash>cfc839c7b5b0462c6872d15e4a14d30973696d289c083aaba36a8eb41d3fc5a2</hash>
         <image_height/>

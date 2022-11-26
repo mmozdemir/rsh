@@ -37,6 +37,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>header_icon</file_name>
         <hash>f3a02c7e06534ee13cdbb7c644715716845e1856b9a210c0f14d9d8f344b3543</hash>
         <image_height>859</image_height>
@@ -76,6 +77,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>homepage_image</file_name>
         <hash>cfc839c7b5b0462c6872d15e4a14d30973696d289c083aaba36a8eb41d3fc5a2</hash>
         <image_height>401</image_height>
@@ -115,6 +117,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>icon</file_name>
         <hash>f3a02c7e06534ee13cdbb7c644715716845e1856b9a210c0f14d9d8f344b3543</hash>
         <image_height>859</image_height>

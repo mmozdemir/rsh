@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-26 13:58:45</sys_created_on>
-        <sys_id>d67b376797f01110303474571153af77</sys_id>
+        <sys_id>34d67f282f2211109e035d492799b69d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_862222_rhs_healt_rhs_import_table</sys_name>
         <sys_package display_value="RHS Health Hub" source="x_862222_rhs_healt">48ece32397b01110303474571153af8c</sys_package>
         <sys_policy/>
         <sys_scope display_value="RHS Health Hub">48ece32397b01110303474571153af8c</sys_scope>
-        <sys_update_name>ua_table_licensing_config_d67b376797f01110303474571153af77</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_34d67f282f2211109e035d492799b69d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-26 13:58:45</sys_updated_on>
     </ua_table_licensing_config>

@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>encode_utf8=false</attributes>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -51,12 +51,12 @@
         <sys_id>89ef83192fda51109e035d492799b66e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Skill</sys_name>
-        <sys_package display_value="">48ece32397b01110303474571153af8c</sys_package>
+        <sys_package display_value="RHS Health Hub" source="x_862222_rhs_healt">48ece32397b01110303474571153af8c</sys_package>
         <sys_policy/>
-        <sys_scope display_value="">48ece32397b01110303474571153af8c</sys_scope>
+        <sys_scope display_value="RHS Health Hub">48ece32397b01110303474571153af8c</sys_scope>
         <sys_update_name>sys_dictionary_interaction_m2m_skill_skill</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 08:43:27</sys_updated_on>
+        <sys_updated_on>2022-10-12 05:46:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

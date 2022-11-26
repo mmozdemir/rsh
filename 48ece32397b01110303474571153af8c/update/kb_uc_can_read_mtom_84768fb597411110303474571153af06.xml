@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
     <kb_uc_can_read_mtom action="INSERT_OR_UPDATE">
-        <kb_knowledge_base display_value="Health Care">04f5a9d497811110303474571153afa7</kb_knowledge_base>
+        <kb_knowledge_base display_value="">04f5a9d497811110303474571153afa7</kb_knowledge_base>
         <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-02 09:53:22</sys_created_on>

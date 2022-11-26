@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Booked Appointment" max_length="40" name="x_862222_rhs_healt_booked_appointment" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="u_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="u_health_provider" dependent_on_field="u_health_provider" label="Health Provider" max_length="32" name="u_health_provider" reference="x_862222_rhs_healt_health_provider" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Name" max_length="32" name="u_name_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="RHS Request Number" mandatory="true" max_length="32" name="u_req_number" reference="x_862222_rhs_healt_rhs_requests" type="reference"/>
+    </element>
+</database>

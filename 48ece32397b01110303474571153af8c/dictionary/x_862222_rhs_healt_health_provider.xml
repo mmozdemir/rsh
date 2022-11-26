@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Health Provider" max_length="40" name="x_862222_rhs_healt_health_provider" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="u_category" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="General Practice" sequence="0" value="general practice"/>
+                <element inactive_on_update="false" label="Dental" sequence="1" value="dental"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="County" max_length="40" name="u_county" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Dublin" sequence="0" value="dublin"/>
+                <element inactive_on_update="false" label="Kildare" sequence="1" value="kildare"/>
+                <element inactive_on_update="false" label="Meath" sequence="2" value="meath"/>
+                <element inactive_on_update="false" label="Offaly" sequence="3" value="offaly"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="ireland" label="Location" max_length="40" name="u_location" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Ireland" sequence="0" value="ireland"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_string_6" type="string"/>
+        <index name="index">
+            <element name="u_name"/>
+        </index>
+    </element>
+</database>

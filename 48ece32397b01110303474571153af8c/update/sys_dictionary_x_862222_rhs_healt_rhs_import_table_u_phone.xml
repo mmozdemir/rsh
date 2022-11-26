@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>import_attribute_name=Phone</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Phone</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
